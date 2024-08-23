@@ -1,0 +1,14 @@
+<form id="myform">
+    <label for="name">Nombre: </label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email: </label>
+    <input type="text" id="email" name="email" required>
+    <br>
+    <button (click)="enviar()" type="button">Enviar</button>
+    
+</form>
+<body>
+    <h2>Datos del Formulario:</h2>
+    <ul id="formData"></ul>
+</body>
